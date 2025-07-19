@@ -54,7 +54,7 @@ def extract_data_lsb(data, num_bytes):
     extracted_bytes = [int(extracted_bits[i:i+8], 2) for i in range(0, num_bytes * 8, 8)]
     return bytes(extracted_bytes)
 
-# --- Main Execution ---
+# -- Main Execution --
 if __name__ == "__main__":
     # Input / Output paths
     input_image = r"C:\Users\acer\Desktop\SplProject\imgencry\input.jpeg"
